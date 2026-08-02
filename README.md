@@ -22,12 +22,11 @@ the repository.
 
 ## Environment
 
-Create the shared Conda environment:
+Install the locked Python environment with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-conda env create -f environment.yml
-conda activate bioinformatics-portfolio
-jupyter lab
+uv sync
+uv run jupyter lab
 ```
 
 Some projects additionally require external tools, dataset credentials, or substantial
@@ -42,4 +41,3 @@ care.
 ## Author
 
 Appolinaria Prokopovich
-
