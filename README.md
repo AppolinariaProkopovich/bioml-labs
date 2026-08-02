@@ -9,12 +9,12 @@ model evaluation, and biologically informed interpretation.
 
 | Project | Methods |
 |---|---|
-| [Breast cancer classification](projects/01-breast-cancer-classification/) | EDA, PCA, SMOTE, logistic regression, KNN, SVM, random forest, gradient boosting, XGBoost |
-| [Population genetics with PCA](projects/02-population-genetics-pca/) | PLINK QC, MAF filtering, LD pruning, PCA, geographic metadata integration |
-| [Bulk and single-cell RNA-seq](projects/03-rna-seq-analysis/) | Count filtering, normalisation, PCA, UMAP, Leiden clustering, marker exploration |
-| [Neural networks for clinical data](projects/04-neural-network-clinical-data/) | PyTorch, regularisation, batch normalisation, architecture and optimiser comparisons |
-| [Multi-omics integration](projects/05-multiomics-integration/) | MOFA, PCA, autoencoders, UMAP, CatBoost, survival metrics |
-| [OCT image classification](projects/06-oct-image-classification/) | Transfer learning, ResNet-50, threshold analysis, Grad-CAM, Integrated Gradients |
+| [Breast cancer classification](01-breast-cancer-classification/) | EDA, PCA, SMOTE, logistic regression, KNN, SVM, random forest, gradient boosting, XGBoost |
+| [Population genetics with PCA](02-population-genetics-pca/) | PLINK QC, MAF filtering, LD pruning, PCA, geographic metadata integration |
+| [Bulk and single-cell RNA-seq](03-rna-seq-analysis/) | Count filtering, normalisation, PCA, UMAP, Leiden clustering, marker exploration |
+| [Neural networks for clinical data](04-neural-network-clinical-data/) | PyTorch, regularisation, batch normalisation, architecture and optimiser comparisons |
+| [Multi-omics integration](05-multiomics-integration/) | MOFA, PCA, autoencoders, UMAP, CatBoost, survival metrics |
+| [OCT image classification](06-oct-image-classification/) | Transfer learning, ResNet-50, threshold analysis, Grad-CAM, Integrated Gradients |
 
 Each project directory contains a notebook and a short description of its data,
 workflow, and limitations. Large datasets and trained model files are not stored in
